@@ -15,6 +15,7 @@ public class kpop extends pop{
     most_listened_year=most_listened_year;
     last_song=last_song;
     last_album=last_album;
+    fandom_name=fandom_name;
     }
     String fandom_name;
 }
