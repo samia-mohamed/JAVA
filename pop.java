@@ -23,10 +23,10 @@ public class pop {
     
     
     public pop(int num_of_albums,double most_listened_year,String last_song, String last_album){
-    num_of_albums=num_of_albums;
-    most_listened_year=most_listened_year;
-    last_song=last_song;
-    last_album=last_album;
+   this.num_of_albums=num_of_albums;
+   this.most_listened_year=most_listened_year;
+    this.last_song=last_song;
+    this.last_album=last_album;
     }
     
     
@@ -37,7 +37,7 @@ public class pop {
     String last_album;
     private int BBMAs_awards_num;
     public void setBBMAs_awards_num(int BBMAs_awards_num){
-    BBMAs_awards_num=BBMAs_awards_num;
+    this.BBMAs_awards_num=BBMAs_awards_num;
     }
     Date d=new Date();
     int year=d.getYear()+1900;
